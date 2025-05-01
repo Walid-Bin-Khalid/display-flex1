@@ -1,0 +1,53 @@
+.main{
+color: whitesmoke;
+background-color: black;
+padding: 5px;
+height: 500px;
+display: flex;
+/* flex-direction: column; */
+flex-direction: row;
+/* flex-direction: row-reverse; */
+/* flex-direction: column-reverse; */
+/* --------X-axis-------- */
+/* justify-content: flex-start; */
+justify-content: center;
+/* justify-content: flex-end; */
+/* --------Y-axis-------- */
+/* align-items: flex-start; */
+align-items: center;
+/* align-items: flex-end; */
+/* justify-content: space-evenly; */
+/* justify-content: space-evenly; */
+/* justify-content: space-between; */
+}
+.one{
+    /* align-self: flex-start; */
+    background-color: red;
+    color: black; 
+}
+.two{
+    /* align-self: center; */
+    background-color: orange;
+    color: black;}
+.three{
+    /* align-self: flex-end; */
+    background-color: yellow;
+    color: black;}
+.four{
+    /* align-self: center; */
+    background-color: green;
+    color: black;}
+.five{
+    /* align-self: flex-start; */
+    background-color: blue;
+    color: black;}
+.six{
+    
+    /* align-self: self-end; */
+    /* align-self: flex-end; */
+    background-color: indigo;
+    color: black;}
+.seven{
+    /* align-self: flex-start; */
+    background-color: violet;
+    color: black;}
